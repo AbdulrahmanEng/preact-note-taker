@@ -67,19 +67,23 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
+  width: 60%;
 }
 
 #modal #modal__title {
-  font-size: 1.25rem;
-  font-weight: bold;
-  border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    width: 90%;
 }
 
 #modal #modal__body {
-  border: none;
-  font-family: sans-serif;
-  font-size: 1rem;
-  width: 100%;
+    border: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 1rem 0;
+    height: auto;
+    width: 90%;
 }
 
 #modal #close {
@@ -102,4 +106,13 @@ body {
 
 .show {
   display: inline;
+}
+
+@media only screen and (min-width: 768px){
+  #navigation li a {
+    font-size: 1.5rem;
+  }
+  #notes-container ul li {
+    font-size: 1.5rem;
+  }
 }
