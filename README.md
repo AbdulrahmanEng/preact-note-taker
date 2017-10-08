@@ -1,8 +1,11 @@
 Preact note taking application with the Webpack development server.
 
+![Preview image](./preview_image.png)
+
 Technologies:
 
 * Preact
+* preact-router
 * babel-core
 * babel-loader
 * babel-plugin-transform-object-rest-spread
