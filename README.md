@@ -3,7 +3,6 @@ Preact note taking application with the Webpack development server.
 Technologies:
 
 * Preact
-* linkstate
 * babel-core
 * babel-loader
 * babel-plugin-transform-object-rest-spread
